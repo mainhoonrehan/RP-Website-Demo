@@ -103,7 +103,7 @@ export const reviews = [
   }
 ];
 
-export const gallery = [
+export const shopImages = [
   'https://lh3.googleusercontent.com/gps-cs-s/AHVAweoUyj0VuRgZuSjJTYFRtijVvmXi3AQhhrlPnCJ3RePjtEogE8HdbQhkXtmW_jpBpCbeBM0v6X67oJJThsV5NaHzzKkYJquXIIADqdnp0BeQbmF_1F92qgyut-dKeUyCsfOh08Rd_W2AYOCU=s1360-w1360-h1020-rw',
   'https://lh3.googleusercontent.com/p/AF1QipPlbJ63j65uw50V_g5slVKv4x7w80YwGPv-gAy5=s1360-w1360-h1020-rw',
   'https://lh3.googleusercontent.com/gps-cs-s/AHVAweridvuWiEHVjHT0_szEZ9-dCRy7rM6vrTZgCR1kNlbWFk-PbySB9n-8YT86g2EH4zzzO2KjRspasAFhmQ1z20q1LDrFl0e-zk27T12Z7_II3Z8L6JLgXH8KWndDYMauLAfupDHaLg=s1360-w1360-h1020-rw',
