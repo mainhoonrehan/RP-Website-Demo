@@ -35,9 +35,9 @@ export const Features = () => {
           <h2 className="text-sm uppercase tracking-widest text-gold-400 font-semibold mb-4">Why Choose Us</h2>
           <div className="w-16 h-16 md:w-24 md:h-24 mb-4">
             <img 
-              src="/logo.png" 
+              src="https://drive.google.com/uc?id=12Koh5ccFlUNCL9Z1bFQO9KxA75QHcpMh" 
               alt="Rahmani Perfumery Logo" 
-              className="w-full h-full object-contain brightness-110"
+              className="w-full h-full object-contain"
               referrerPolicy="no-referrer"
             />
           </div>

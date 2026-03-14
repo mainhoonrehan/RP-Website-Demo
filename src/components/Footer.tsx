@@ -7,15 +7,22 @@ export const Footer = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid grid-cols-1 md:grid-cols-4 gap-12 mb-12">
           <div className="col-span-1 md:col-span-2">
-            <div className="flex items-center mb-6">
-              <div className="h-16 flex items-center">
-                <img 
-                  src="/logo.png" 
-                  alt="Rahmani Perfumery Logo" 
-                  className="h-full w-auto object-contain brightness-110"
-                  referrerPolicy="no-referrer"
-                />
-              </div>
+            <div className="mb-6">
+              <img 
+                src="https://lh3.googleusercontent.com/d/12Koh5ccFlUNCL9Z1bFQO9KxA75QHcpMh" 
+                alt="Rahmani Perfumery Logo" 
+                className="h-10 w-auto object-contain"
+                referrerPolicy="no-referrer"
+                onError={(e) => {
+                  const target = e.target as HTMLImageElement;
+                  target.style.display = 'none';
+                  const fallback = target.nextElementSibling as HTMLElement;
+                  if (fallback) fallback.style.display = 'block';
+                }}
+              />
+              <h3 className="hidden font-serif text-2xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-gold-300 to-gold-600">
+                Rahmani Perfumery
+              </h3>
             </div>
             <p className="text-gray-400 text-sm leading-relaxed max-w-sm">
               Discover the finest collection of Indian Attars, Arabic Attars, and premium French Perfume Clones. Luxury fragrances crafted for elegance and longevity.

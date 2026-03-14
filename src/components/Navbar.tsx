@@ -33,15 +33,22 @@ export const Navbar = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center">
           {/* Logo */}
-          <a href="#" className="flex items-center group">
-            <div className="h-10 md:h-12 flex items-center">
-              <img 
-                src="/logo.png" 
-                alt="Rahmani Perfumery Logo" 
-                className="h-full w-auto object-contain brightness-110 contrast-110 group-hover:scale-105 transition-transform duration-300"
-                referrerPolicy="no-referrer"
-              />
-            </div>
+          <a href="#" className="flex items-center gap-2">
+            <img 
+              src="https://lh3.googleusercontent.com/d/12Koh5ccFlUNCL9Z1bFQO9KxA75QHcpMh" 
+              alt="Rahmani Perfumery Logo" 
+              className="h-10 md:h-12 w-auto object-contain"
+              referrerPolicy="no-referrer"
+              onError={(e) => {
+                const target = e.target as HTMLImageElement;
+                target.style.display = 'none';
+                const fallback = target.nextElementSibling as HTMLElement;
+                if (fallback) fallback.style.display = 'block';
+              }}
+            />
+            <span className="hidden font-serif text-2xl md:text-3xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-gold-300 via-gold-400 to-gold-600">
+              Rahmani Perfumery
+            </span>
           </a>
 
           {/* Desktop Nav */}

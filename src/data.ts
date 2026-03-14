@@ -61,12 +61,12 @@ export const products: Product[] = [
 export const categories = [
   {
     name: 'Indian Attar',
-    image: 'https://images.unsplash.com/photo-1608528577891-eb055944f2e7?auto=format&fit=crop&q=80&w=800',
+    image: 'https://lh3.googleusercontent.com/d/1rfSBPML4nfiZMrEHN8spS_c2EEMyrA6r',
     description: 'Traditional, pure, and earthy.'
   },
   {
     name: 'Arabic Attar',
-    image: 'https://images.unsplash.com/photo-1541643600914-78b084683601?auto=format&fit=crop&q=80&w=800',
+    image: 'https://lh3.googleusercontent.com/p/AF1QipOt-EwXL7b44mtW_0g1bHdp4XwrCanYi5S_yh5h=s1360-w1360-h1020-rw',
     description: 'Rich, woody, and luxurious.'
   },
   {
@@ -103,10 +103,32 @@ export const reviews = [
   }
 ];
 
-// Inside our Shop - Replace these URLs with your actual shop images
-export const shopImages = [
-  '/image-1.png',
-  '/image-2.png',
-  '/image-3.png',
-  '/image-4.png'
+export const gallery = [
+  'https://lh3.googleusercontent.com/gps-cs-s/AHVAweoUyj0VuRgZuSjJTYFRtijVvmXi3AQhhrlPnCJ3RePjtEogE8HdbQhkXtmW_jpBpCbeBM0v6X67oJJThsV5NaHzzKkYJquXIIADqdnp0BeQbmF_1F92qgyut-dKeUyCsfOh08Rd_W2AYOCU=s1360-w1360-h1020-rw',
+  'https://lh3.googleusercontent.com/p/AF1QipPlbJ63j65uw50V_g5slVKv4x7w80YwGPv-gAy5=s1360-w1360-h1020-rw',
+  'https://lh3.googleusercontent.com/gps-cs-s/AHVAweridvuWiEHVjHT0_szEZ9-dCRy7rM6vrTZgCR1kNlbWFk-PbySB9n-8YT86g2EH4zzzO2KjRspasAFhmQ1z20q1LDrFl0e-zk27T12Z7_II3Z8L6JLgXH8KWndDYMauLAfupDHaLg=s1360-w1360-h1020-rw',
+  'https://lh3.googleusercontent.com/p/AF1QipNll_CHH-_CwwpiEk7ZhHEj0dspeH8wUxoZE-Ne=s1360-w1360-h1020-rw'
+];
+
+export const whatsappReviews = [
+  {
+    id: 1,
+    image: 'https://lh3.googleusercontent.com/p/AF1QipOZgZBGnotges_7AodgQOcLtDReK6QPH9MiFZO6=s1360-w1360-h1020-rw',
+    caption: 'Happy customer from Delhi'
+  },
+  {
+    id: 2,
+    image: 'https://lh3.googleusercontent.com/p/AF1QipNcsjO-NGdmCZsXVnDPAtiES9hxOXoRm8PZi4R8=s1360-w1360-h1020-rw',
+    caption: 'Review for Majestic Oud'
+  },
+  {
+    id: 3,
+    image: 'https://lh3.googleusercontent.com/p/AF1QipO9YQLFi5Fs2_KL6oRwA9Fxn4dU9vW4WWRGtYCQ=s1360-w1360-h1020-rw',
+    caption: 'Bulk order feedback'
+  },
+  {
+    id: 4,
+    image: 'https://lh3.googleusercontent.com/p/AF1QipPJx3MkU7Lbw2ujkQDy6YImpuMQUTw1OH-iVr1i=s1360-w1360-h1020-rw',
+    caption: 'Quality appreciation'
+  }
 ];

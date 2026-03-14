@@ -12,6 +12,7 @@ import { BestSellers } from './components/BestSellers';
 import { Features } from './components/Features';
 import { Gallery } from './components/Gallery';
 import { Reviews } from './components/Reviews';
+import { WhatsAppReviews } from './components/WhatsAppReviews';
 import { Contact } from './components/Contact';
 import { Footer } from './components/Footer';
 import { Cart } from './components/Cart';
@@ -29,6 +30,7 @@ export default function App() {
           <Features />
           <Gallery />
           <Reviews />
+          <WhatsAppReviews />
           <Contact />
         </main>
         <Footer />
